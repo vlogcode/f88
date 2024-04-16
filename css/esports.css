@@ -1,0 +1,628 @@
+.es-wrapper {
+    display: none;
+    position: relative;
+}
+
+    .es-wrapper .slick-slide > div{
+        line-height: 0;
+    }
+
+    .es-wrapper.slick-initialized {
+        display: block;
+        margin-bottom: 0 !important;
+    }
+
+.es-slider {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #062818;
+    background-repeat: no-repeat;
+    background-position: top;
+    line-height: normal;
+}
+
+.whiteBody .es-slider {
+    background-color: #fff;
+}
+
+    .es-slider .nopads {
+        padding: 0;
+    }
+
+.es-container {
+    position: relative;
+    width: 100%;
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+@media(max-width: 1300px) {
+    .es-container.es-matches-container {
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px) {
+    .es-container.es-matches-container {
+        width: 80%;
+    }
+}
+
+.es-copyline {
+    margin-top: 15%;
+}
+
+.es-copyline > img {
+    margin: 0 auto;
+}
+
+.es-text {
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 15px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.es-btn-con {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .es-btn-con > a {
+        max-width: 200px;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 8px;
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 15px;
+        text-transform: uppercase;
+        -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+    }
+
+.es-btn {
+    background: #55c53a;
+    background: -moz-linear-gradient(left,#55c53a 0%,#098d43 100%);
+    background: -webkit-linear-gradient(left,#55c53a 0%,#098d43 100%);
+    background: linear-gradient(to right,#55c53a 0%,#098d43 100%);
+    color: #fff;
+    border: none;
+}
+
+    .es-btn:hover {
+        color: #fff;
+        background: linear-gradient(to right,#55c53a 0%,#176d3d 100%);
+        border: none;
+    }
+
+.text-cont .protitle {
+    line-height: normal;
+}
+
+/*.es-fullwidth .es-btn-con {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    margin: 0;
+}
+
+.es-wrapper .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: right;
+    max-width: 1200px;
+}
+
+.es-wrapper .slick-dots li {
+    width: auto;
+    height: auto;
+}
+
+.es-wrapper .slick-dots li button {
+    background-color: #fff;
+    width: 80px;
+    height: 8px;
+    opacity: .5;
+    box-shadow: 0 0 10px #000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.whiteBody .es-wrapper .slick-dots li button {
+    background-color: #028843;
+    box-shadow: none;
+}
+
+.whiteBody .es-wrapper .slick-dots li.slick-active button {
+    box-shadow: none;
+}
+
+    .es-wrapper .slick-dots li button::before {
+        content: none;
+    }
+
+.es-wrapper .slick-dots li.slick-active button {
+    opacity: 1;
+    box-shadow: 0 0 10px #333;
+}*/
+
+.es-content {
+    background: #062818 url(https://cdn.hanwei1234.com/Content/images/esports/bg-content.jpg) no-repeat bottom;
+    padding: 30px 0;
+}
+
+.whiteBody .es-content {
+    background: #fff url(https://cdn.hanwei1234.com/Content/images/esports/bg-content-wh.jpg) no-repeat bottom;
+}
+
+.escon {
+    display: block;
+    -webkit-perspective: 600px;
+    perspective: 600px;
+}
+
+    .escon > img {
+        display: block;
+        margin: 0 auto;
+        animation: flipLeftBounce 1.5s ease-in-out 1s 1;
+        -webkit-animation: flipLeftBounce 1.5s ease-in-out 1s 1;
+    }
+
+@keyframes flipLeftBounce {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    20% {
+        transform: rotateY(10deg);
+    }
+
+    50% {
+        transform: rotateY(-5deg);
+    }
+
+    75% {
+        transform: rotateY(5deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+@-webkit-keyframes flipLeftBounce {
+    0% {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    20% {
+        -webkit-transform: rotateY(10deg);
+    }
+
+    50% {
+        -webkit-transform: rotateY(-5deg);
+    }
+
+    75% {
+        -webkit-transform: rotateY(5deg);
+    }
+
+    100% {
+        -webkit-transform: rotateY(0deg);
+    }
+}
+
+.es-title {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fee71b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.whiteBody .es-title {
+    color: #028843;
+}
+
+.es-detail {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.whiteBody .es-detail {
+    color: #222;
+}
+
+.es-mobile {
+    display: none;
+}
+
+@media(max-width: 1600px) {
+    .es-slider {
+        height: 400px;
+        background-size: cover;
+    }
+
+    .escon > img {
+        width: 400px;
+    }
+
+    .es-copyline {
+        margin-top: 11%;
+    }
+}
+
+@media(max-width: 1366px) {
+    .es-slider {
+        height: 300px;
+        background-size: contain;
+    }
+
+    .escon > img {
+        width: 350px;
+    }
+
+    .es-copyline {
+        margin-top: 3%;
+    }
+
+    .es-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .es-title {
+        font-size: 16px;
+    }
+
+    .es-wrapper .slick-dots li button {
+        width: 60px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .es-slider {
+        height: 500px;
+        background-size: auto;
+        background-position-x: -200px;
+    }
+
+        .es-slider.es-fullwidth {
+            height: 500px;
+            background-size: auto;
+            background-position: center;
+        }
+
+    .esdesk {
+        display: none;
+    }
+
+    .es-content {
+        background: #062818 url(https://cdn.hanwei1234.com/Content/images/esports/bg-content-mob.jpg) no-repeat bottom;
+        padding-bottom: 30px;
+    }
+
+    .whiteBody .es-content {
+        background: #fff url(https://cdn.hanwei1234.com/Content/images/esports/bg-content-wh-mob.jpg) no-repeat bottom;
+    }
+
+    .es-mobile {
+        display: block;
+    }
+
+    .es-mobile > img {
+        display: none;
+        width: 100%;
+    }
+
+    .esmob-text {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        padding: 25px 10px 5px;
+        background: -moz-linear-gradient(top,rgba(125,185,232,0) 0%,rgba(0,0,0,1) 71%);
+        background: -webkit-linear-gradient(top,rgba(125,185,232,0) 0%,rgba(0,0,0,1) 71%);
+        background: linear-gradient(to bottom,rgba(125,185,232,0) 0%,rgba(0,0,0,1) 71%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007db9e8',endColorstr='#000000',GradientType=0);
+    }
+
+    .esmob-text > p {
+        margin: 0;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .es-wrapper .slick-dots {
+        position: absolute;
+        bottom: auto;
+        left: auto;
+        top: 10px;
+        right: 10px;
+        margin: 0;
+        width: 20px;
+    }
+
+        .es-wrapper .slick-dots li {
+            margin: 0 0 7px;
+        }
+
+            .es-wrapper .slick-dots li button {
+                background-color: #fff;
+                width: 20px;
+                height: 20px;
+                opacity: 0.5;
+                box-shadow: 0 0 10px #000;
+                border-radius: 100%;
+                -webkit-border-radius: 100%;
+            }
+}
+
+@media(max-width: 768px) {
+
+    .escon > img {
+        width: 100%;
+    }
+
+    .es-slider {
+        height: auto;
+    }
+
+        .es-slider.es-fullwidth {
+            height: auto;
+        }
+
+    .es-mobile > img {
+        display: block;
+        width: 100%;
+    }
+
+    .esmob-text > p {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+}
+
+
+
+
+/****************************
+     For List of Matches in Slider
+*****************************/
+
+.es-matches-container {
+    margin-bottom: 30px;
+}
+
+#lol-match-slider {
+    display: none;
+}
+
+    #lol-match-slider.slick-initialized {
+        display: block;
+    }
+
+#lol-match-slider .slick-slide {
+    margin: 0 5px;
+}
+
+.es-matchcon {
+    display: flex !important;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 4px 0;
+    background: #004220;
+    border: 1px solid rgba(13,187,117,0.4);
+    cursor: pointer;
+}
+
+    .es-matchcon:hover {
+        background: #075a30;
+    }
+
+.es-date {
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+}
+
+.es-date p:first-child{
+    margin: 0;
+}
+
+.es-date p:last-child{
+    margin: 0;
+    font-size: 9px;
+}
+
+.es-match {
+    display: flex !important;
+}
+
+    .es-match .es-versus,
+    .es-match .es-team1,
+    .es-match .es-team2 {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2px;
+        flex-direction: column;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+        .es-match .es-versus p {
+            margin: 0;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+
+
+/****************************
+    Esports Betting
+*****************************/
+html:lang(en-US) .esports-betting {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-betting/web-esports-betting-2024-en.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(vi-VN) .esports-betting {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-betting/web-esports-betting-2024-vn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(th-TH) .esports-betting {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-betting/web-esports-betting-2024-th.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(zh-CN) .esports-betting {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-betting/web-esports-betting-2024-cn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+/****************************
+    Esports Live Stream
+*****************************/
+
+html:lang(en-US) .esports-live-stream {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-live-stream/web-esports-live-stream-2024-en.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(vi-VN) .esports-live-stream {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-live-stream/web-esports-live-stream-2024-vn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(th-TH) .esports-live-stream {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-live-stream/web-esports-live-stream-2024-th.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(zh-CN) .esports-live-stream {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-live-stream/web-esports-live-stream-2024-cn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+/****************************
+    Esports Platform
+*****************************/
+
+html:lang(en-US) .esports-platform {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-platform/web-esports-platform-2024-en.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(vi-VN) .esports-platform {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-platform/web-esports-platform-2024-vn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(th-TH) .esports-platform {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-platform/web-esports-platform-2024-th.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(zh-CN) .esports-platform {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-platform/web-esports-platform-2024-cn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+/****************************
+    Esports PUBG
+*****************************/
+
+html:lang(en-US) .esports-pubg {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-pubg/web-esports-pubg-2024-en.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(vi-VN) .esports-pubg {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-pubg/web-esports-pubg-2024-vn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(th-TH) .esports-pubg {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-pubg/web-esports-pubg-2024-th.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(zh-CN) .esports-pubg {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-pubg/web-esports-pubg-2024-cn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+
+/****************************
+    Esports Odds
+*****************************/
+
+html:lang(en-US) .esports-odds {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-odds/web-esports-odds-2024-en.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(vi-VN) .esports-odds {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-odds/web-esports-odds-2024-vn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(th-TH) .esports-odds {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-odds/web-esports-odds-2024-th.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(zh-CN) .esports-odds {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-odds/web-esports-odds-2024-cn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+/****************************
+    Esports Worlds
+*****************************/
+
+html:lang(en-US) .esports-worlds {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-worlds/esports-banner-worlds-2023-en.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(vi-VN) .esports-worlds {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-worlds/esports-banner-worlds-2023-vn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(th-TH) .esports-worlds {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-worlds/esports-banner-worlds-2023-th.webp) no-repeat top center;
+    background-size: auto;
+}
+
+html:lang(zh-CN) .esports-worlds {
+    background: url(https://cdn.hanwei1234.com/Content/images/slider/esports-worlds/esports-banner-worlds-2023-cn.webp) no-repeat top center;
+    background-size: auto;
+}
+
+.esports-worlds .bs-btn {
+    bottom: 15%;
+}

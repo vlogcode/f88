@@ -1,0 +1,1995 @@
+@font-face {
+    font-family: 'casino';
+    src: url(/fonts/casino1.eot);
+    src: url(/fonts/casino2.eot) format('embedded-opentype'), 
+    url(/fonts/casino11.ttf) format('truetype'),
+     url(/fonts/casino22.woff) format('woff'), 
+     url(/Content/fonts/casino.svg?v=1.1.3) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block
+}
+
+[class^="cas-"],
+[class*=" cas-"] {
+    font-family: 'casino' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.cas-Roulette:before {
+    content: ""
+}
+
+.cas-SicBo:before {
+    content: ""
+}
+
+.cas-Spin:before {
+    content: ""
+}
+
+.cas-ThreeCards:before {
+    content: ""
+}
+
+.cas-Baccarat:before {
+    content: ""
+}
+
+.cas-BlackJack:before {
+    content: ""
+}
+
+.cas-DragonTiger:before {
+    content: ""
+}
+
+.cas-BullBull:before {
+    content: ""
+}
+
+.cas-FanTan:before {
+    content: ""
+}
+
+.cas-Casino-Holdem:before {
+    content: ""
+}
+
+.cas-Craps:before {
+    content: ""
+}
+
+.cas-Dream-Catcher:before {
+    content: ""
+}
+
+.cas-Lightning-Dice:before {
+    content: ""
+}
+
+.cas-Megaball:before {
+    content: ""
+}
+
+.cas-Multiplay:before {
+    content: ""
+}
+
+.cas {
+    font-size: 48px;
+    display: block
+}
+
+.blackBody .cas {
+    color: #9cd0a0
+}
+
+@font-face {
+    font-family: 'utm-sharnay';
+    src: url(/Content/fonts/UTM-Sharnay.ttf?c21w1t) format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+.i-ace {
+    display: inline-block;
+    background: url(/Content/images/livecasino/ace.png) no-repeat;
+    height: 21px;
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.i-king {
+    display: inline-block;
+    background: url(/Content/images/livecasino/king.png) no-repeat;
+    height: 21px;
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.i-queen {
+    display: inline-block;
+    background: url(/Content/images/livecasino/queen.png) no-repeat;
+    height: 22px;
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.i-jack {
+    display: inline-block;
+    background: url(/Content/images/livecasino/jack.png) no-repeat;
+    height: 20px;
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.i-ten {
+    display: inline-block;
+    background: url(/Content/images/livecasino/ten.png) no-repeat;
+    height: 21px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.i-nine {
+    display: inline-block;
+    background: url(/Content/images/livecasino/nine.png) no-repeat;
+    height: 20px;
+    width: 13px;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+.whiteBody .i-ace {
+    background: url(/Content/images/livecasino/ace-w.png) no-repeat
+}
+
+.whiteBody .i-king {
+    background: url(/Content/images/livecasino/king-w.png) no-repeat
+}
+
+.whiteBody .i-queen {
+    background: url(/Content/images/livecasino/queen-w.png) no-repeat
+}
+
+.whiteBody .i-jack {
+    background: url(/Content/images/livecasino/jack-w.png) no-repeat
+}
+
+.whiteBody .i-ten {
+    background: url(/Content/images/livecasino/ten-w.png) no-repeat
+}
+
+.whiteBody .i-nine {
+    background: url(/Content/images/livecasino/nine-w.png) no-repeat
+}
+
+.info-active {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+    display: none;
+    transition: all ease 1s
+}
+
+.casinoSlider {
+    height: 423px;
+    overflow: hidden
+}
+
+.casinoSliderWrap {
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+.casinoSliderWrap>.col-md-4 {
+    height: 423px;
+    padding-top: 5%;
+    text-align: center
+}
+
+.casinoSliderWrap>.col-md-6,
+.casinoSliderWrap>.col-md-5 {
+    height: 423px;
+    padding-top: 5%;
+    text-align: center
+}
+
+.sliderBtnContainer {
+    margin-top: 20px
+}
+
+.casinoBtn {
+    width: 209px;
+    height: 48px;
+    color: #fee71b;
+    line-height: 45px;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #fee71b;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 1s ease
+}
+
+.casinoBtn:hover,
+.casinoBtn:focus {
+    background: #fee71b;
+    color: #000;
+    background-image: linear-gradient(to right top, #ffc400, #ffca03, #ffd107, #ffd70d, #ffde13, #ffe22c, #fee73d, #feeb4c, #feee65, #fff17c, #fff391, #fff6a6)
+}
+
+.blackBody .casinoBtn {
+    border: 2px solid #037b4b;
+    color: #037b4b
+}
+
+.blackBody .casinoBtn:hover,
+.blackBody .casinoBtn:focus {
+    background: #037b4b;
+    color: #fff;
+    background-image: linear-gradient(to right bottom, #048e6a, #0a8a64, #0e865e, #128259, #157e53, #1e8653, #288d52, #339551, #4aaa53, #64bf54, #80d452, #9ee84f)
+}
+
+.dailyRebate {
+    background-image: url(/Content/images/livecasino/Slider/live-casino-daily-rebate-bg-g.jpg);
+    background-position: center top;
+    background-color: #036431;
+    background-repeat: no-repeat;
+    height: 423px
+}
+
+.blackBody .dailyRebate {
+    background-image: url(/Content/images/livecasino/Slider/live-casino-daily-rebate-bg.jpg);
+    background-position: center top;
+    background-color: #f6cd01;
+    background-repeat: no-repeat;
+    height: 423px
+}
+
+.clubQueenEuro {
+    background-image: url(/Content/images/livecasino/Slider/ClubQueenEuro_Green.jpg);
+    background-position: center top;
+    background-color: #024318;
+    background-repeat: no-repeat;
+    height: 423px
+}
+
+.blackBody .clubQueenEuro {
+    background-image: url(/Content/images/livecasino/Slider/ClubQueenEuro_Yellow.jpg);
+    background-position: center top;
+    background-color: #f6cd01;
+    background-repeat: no-repeat;
+    height: 423px
+}
+
+.casinoContainer {
+    background: #fff
+}
+
+.blackBody .casinoContainer {
+    background: #052819
+}
+
+.wrapCasinoContainer {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.topCasinoBtn {
+    border: 1px solid #037b4b;
+    border-radius: 50px;
+    -moz-box-shadow: inset 0 0 10px #206940;
+    -webkit-box-shadow: inset 0 0 10px #206940;
+    box-shadow: inset 0 0 10px #206940;
+    background: #003115;
+    margin-top: 20px;
+    display: inline-block;
+    width: auto
+}
+
+.whiteBody .topCasinoBtn {
+    background: #fff
+}
+
+.topCasinoBtnSelect {
+    display: none
+}
+
+.filterBtn {
+    cursor: pointer;
+    border: none;
+    color: #03562a;
+    background: none;
+    border-radius: 3px;
+    transition: all .5s ease;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-transform: uppercase
+}
+
+.blackBody .filterBtn,
+.blackBody .filterBtn i {
+    color: #c39f76
+}
+
+.filterBtn i {
+    font-size: 15px;
+    vertical-align: text-bottom;
+    transition: all 1s ease
+}
+
+.filterBtn:hover,
+.filterBtn:focus {
+    color: #714727;
+    background: #037b4b;
+    background-image: linear-gradient(to right bottom, #575933, #6e7034, #868832, #a0a02f, #bcb928, #cac723, #d8d51c, #e7e310, #eae90c, #edf008, #eff604, #f2fd00)
+}
+
+.whiteBody .filterBtn:hover,
+.filterBtn:focus {
+    color: #fff;
+    background: #037b4b;
+    background-image: linear-gradient(to right bottom, #048e6a, #0a8a64, #0e865e, #128259, #157e53, #1e8653, #288d52, #339551, #4aaa53, #64bf54, #80d452, #9ee84f)
+}
+
+.filterBtn:hover i,
+.filterBtn:focus i {
+    color: #fff
+}
+
+.filterBtn.active {
+    color: #fff
+}
+
+.whiteBody .filterBtn.active {
+    color: #fff
+}
+
+.filterBtn.active i {
+    color: #714727
+}
+
+.whiteBody .filterBtn.active i {
+    color: #fff
+}
+
+.filterBtn {
+    position: relative;
+    z-index: 10
+}
+
+.topCasinoBtn.basic-info-tab {
+    position: relative
+}
+
+.filterBtn.active>img {
+    transform: scale(1.2)
+}
+
+.filterBtn img {
+    vertical-align: middle;
+    width: 14px;
+    transition: all .2s ease-in-out;
+    margin-right: 5px;
+    height: 21px
+}
+
+.filterBtn:hover>img {
+    transform: scale(1.1)
+}
+
+.bottomCasinoBtn {
+    padding: 10px 0
+}
+
+.bottomCasinoFloat {
+    float: left
+}
+
+.bottomCasinoFloat+.bottomCasinoFloat {
+    float: right;
+    padding-right: 10px
+}
+
+.bottomCasinoBtn .bottomCasinoFloat a {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    color: #996811
+}
+
+.blackBody .bottomCasinoBtn .bottomCasinoFloat a {
+    color: #c39f76
+}
+
+.bottomCasinoBtn .bottomCasinoFloat a:first-child {
+    color: #c41818
+}
+
+.bottomCasinoBtn .bottomCasinoFloat a.active {
+    color: #00623b
+}
+
+.blackBody .bottomCasinoBtn .bottomCasinoFloat a.active,
+.blackBody .bottomCasinoBtn .bottomCasinoFloat a:hover {
+    color: #fee71b
+}
+
+.bottomCasinoBtn .bottomCasinoFloat a:hover {
+    color: #00623b
+}
+
+.bottomCasinoBtn .bottomCasinoFloat a:hover>i {
+    transform: scale(1.1)
+}
+
+.bottomCasinoBtn .bottomCasinoFloat a i {
+    font-size: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+    transition: all .2s ease-in-out
+}
+
+.mainCasino {
+    visibility: hidden;
+    height: 0
+}
+
+.mainCasino.vis {
+    visibility: visible;
+    height: auto
+}
+
+.unvis {
+    visibility: hidden;
+    height: 0
+}
+
+.newLiveHolder {
+    background: #f6faf9 url(/Content/images/livecasino/ver2/livecasino-white-bg.jpg) center top no-repeat
+}
+
+.blackBody .newLiveHolder {
+    background: #062a1a url(/Content/images/livecasino/ver2/CasinoBg.jpg) center top no-repeat
+}
+
+.firstLoadCasino {
+    height: 765px;
+    overflow: hidden
+}
+
+.whiteBody .firstLoadCasino {}
+
+.firstLoadCasino .container {}
+
+.firstLoadCasino.slick-dotted.slick-slider {
+    margin-bottom: 0
+}
+
+.clubbing {
+    height: 800px;
+    position: relative;
+    opacity: 1
+}
+
+.clubbing .setanimate {
+    -webkit-animation-name: LepToRayt;
+    animation-name: LepToRayt
+}
+
+.fadeLep {
+    -webkit-animation-name: LepToRayt;
+    animation-name: LepToRayt
+}
+
+.fadeRayt {
+    -webkit-animation-name: RaytToLep;
+    animation-name: RaytToLep
+}
+
+.fadeOutLep {
+    -webkit-animation-name: LepToRaytOut;
+    animation-name: LepToRaytOut
+}
+
+.fadeOutRayt {
+    -webkit-animation-name: RaytToLep;
+    animation-name: RaytToLep
+}
+
+@keyframes LepToRaytOut {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        opacity: 1;
+        transform: translate3d(0, 0, 0)
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        opacity: 0;
+        transform: translateZ(0);
+        transform: translate3d(-100%, 0, 0);
+        -webkit-transform: translate3d(-100%, 0, 0)
+    }
+}
+
+@keyframes LepToRayt {
+    0% {
+        -webkit-transform: translate3d(-30px, 0, 0);
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0)
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+        transform: translateZ(0)
+    }
+}
+
+@keyframes RaytToLep {
+    0% {
+        -webkit-transform: translate3d(30px, 0, 0);
+        opacity: 0;
+        transform: translate3d(30px, 0, 0)
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+        transform: translateZ(0)
+    }
+}
+
+.bg-item {
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.girlA {
+    position: absolute;
+    left: 7%;
+    bottom: 0
+}
+
+.girlA-8 {
+    position: absolute;
+    left: -7%;
+    bottom: 0;
+    max-width: unset
+}
+
+.girlA-10 {
+    position: absolute;
+    left: 28%;
+    bottom: -10%
+}
+
+.clubbingContent {}
+
+.logoPosition {
+    margin-top: 20%
+}
+
+.club-content {
+    color: #002d1a;
+    margin: 40px 0;
+    font-size: 14px
+}
+
+.blackBody .club-content {
+    color: #9cd0a0
+}
+
+.club-items {
+    text-align: center;
+    margin: 30px 0
+}
+
+.club-items ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block
+}
+
+.club-items ul li {
+    float: left;
+    margin: 5px;
+    font-size: 12px;
+    text-align: center;
+    min-width: 70px;
+    color: #002d1a;
+    transition: all ease .5s;
+    transform: scale(.9);
+    cursor: pointer;
+    width: 80px
+}
+
+.blackBody .club-items ul li {
+    color: #9cd0a0
+}
+
+.club-items ul li:hover {
+    transform: scale(1)
+}
+
+.club-btn {
+    text-align: center;
+    margin-top: 5%
+}
+
+.btnLivecasino {
+    display: inline-block;
+    width: 180px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+.btn_A {
+    background-image: linear-gradient(to right bottom, #6ada3c, #57d455, #48cd67, #3ec576, #3cbd82)
+}
+
+.btn_A:hover {
+    color: #fff
+}
+
+.btn_B {
+    background-image: linear-gradient(to right bottom, #f1be4c, #e5c647, #d6cf45, #c4d748, #b0df50);
+    color: #333;
+    text-transform: uppercase
+}
+
+.firstLoadCasino .slick-dots {
+    bottom: 40px
+}
+
+.firstLoadCasino .slick-dots li {
+    width: auto;
+    height: auto;
+    transition: all ease 1s;
+    margin: 0 10px
+}
+
+.firstLoadCasino .slick-dots li button {
+    width: 52px;
+    height: 58px;
+    transition: all ease 1s
+}
+
+.firstLoadCasino .slick-dots li button:before {
+    font-size: 20px;
+    background: url(/Content/images/livecasino/ver2/nab.png) no-repeat;
+    width: 52px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    transition: all ease 1s
+}
+
+.slick-dots li:nth-child(1) button:before {
+    content: 'K'
+}
+
+.slick-dots li:nth-child(2) button:before {
+    content: 'Q'
+}
+
+.slick-dots li:nth-child(3) button:before {
+    content: 'J'
+}
+
+.slick-dots li:nth-child(4) button:before {
+    content: '10'
+}
+
+.slick-dots li:nth-child(5) button:before {
+    content: '8'
+}
+
+.firstLoadCasino .slick-dots li.slick-active button:before {
+    color: #333;
+    font-weight: bold;
+    background: url(/Content/images/livecasino/ver2/hov.png) no-repeat;
+    transform: scale(1.2)
+}
+
+@media(max-width:1024px) {
+    .blackBody .newLiveHolder {
+        background-position: 69%;
+        background-size: cover
+    }
+
+    .clubbing {
+        display: none
+    }
+
+    .logoPosition {
+        text-align: center;
+        margin-top: 10%
+    }
+
+    .logoPosition img {
+        display: inline-block !important
+    }
+
+    .clubbingContent {
+        width: 100%;
+        text-align: center
+    }
+
+    .firstLoadCasino {
+        height: calc(100vh - 160px);
+        overflow: unset
+    }
+
+    .club-content {
+        margin: 20px 0
+    }
+
+    .club-items ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .club-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0
+    }
+
+    .club-items {
+        margin: 0 0
+    }
+
+    .firstLoadCasino .slick-dots {
+        position: static
+    }
+
+    .topCasinoBtn .filterBtn {
+        color: #fee71b
+    }
+
+    .topCasinoBtn .filterBtn:hover,
+    .topCasinoBtn .filterBtn:focus {
+        color: #fff
+    }
+}
+
+@media(max-width:768px) {
+    .newLiveHolder {
+        background: #f6faf9 url(/Content/images/livecasino/ver2/livecasino-white-bg.jpg) center top no-repeat;
+        background-size: cover;
+        padding-bottom: 100px
+    }
+}
+
+@media(max-width:500px) {
+    .logoPosition img {
+        width: 100%;
+        height: auto
+    }
+
+    .firstLoadCasino .slick-dots li button {
+        width: auto;
+        height: auto
+    }
+
+    .firstLoadCasino .slick-dots li {
+        transform: scale(.6);
+        margin: 0 15px
+    }
+
+    .firstLoadCasino {
+        height: calc(100vh - 60px);
+        overflow: unset
+    }
+
+    .newLiveHolder {
+        padding-bottom: 130px
+    }
+}
+
+@media(max-width:480px) {
+    .btnLivecasino {
+        width: 45%;
+        font-size: 14px
+    }
+}
+
+@media(max-width:375px) {
+    .newLiveHolder {
+        padding-bottom: 270px
+    }
+}
+
+.searchBtn {
+    border: 1px solid #e2e2e2;
+    background: #e2e2e2;
+    padding: 3px 24px 3px 8px;
+    height: 26px;
+    color: #00623b;
+    width: 150px;
+    background-image: url(/Content/images/livecasino/searchForCasino.png);
+    background-repeat: no-repeat;
+    background-position-x: right
+}
+
+.blackBody .searchBtn {
+    background-color: #001f12;
+    background-image: url(/Content/images/livecasino/searchForCasino.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border: 1px solid #001f12
+}
+
+.searchBtn::placeholder {
+    color: #00623b
+}
+
+.searchBtn::placeholder {
+    color: #00623b;
+    opacity: .5
+}
+
+.searchBtn:-ms-input-placeholder {
+    color: #00623b
+}
+
+.searchBtn::-ms-input-placeholder {
+    color: #00623b
+}
+
+.listContainer {
+    position: relative;
+    min-height: 500px
+}
+
+ul.listData {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.listData:after {
+    clear: both;
+    content: '';
+    display: table
+}
+
+ul.listData li:first-child {
+    height: 650px;
+    width: 600px;
+    margin-bottom: 19px;
+    background: none;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+ul.listData li {
+    float: left;
+    height: 204px;
+    width: 298px;
+    background: none;
+    margin-bottom: 19px;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.casinoGameHolder {
+    border: 1px solid #00623b;
+    box-shadow: 0 0 2px #001d0c;
+    border-radius: 3px
+}
+
+.casinoGameHolder.tabImg {
+    background: #003215
+}
+
+.blackBody .casinoGameHolder.tabImg {
+    background: none
+}
+
+.casinoGameHolder.tabImg:hover>.imgHolderCasino,
+.casinoGameHolder.tabImg:hover>.casinoText {
+    opacity: .3
+}
+
+.casinoText {}
+
+.casinoText span {
+    float: left;
+    width: 50%;
+    padding-left: 10px
+}
+
+.casinoText span+span {
+    text-align: right;
+    padding-right: 10px;
+    color: #97d69d
+}
+
+.casinoGameHolder p {
+    margin: 0;
+    height: 33px;
+    line-height: 33px;
+    display: block;
+    color: #5dca8a;
+    z-index: -1
+}
+
+.blackBody .casinoGameHolder p {
+    color: #b2936d
+}
+
+.casinoGameHolder .favoriteIcon {
+    width: 14px;
+    height: 12px;
+    z-index: 999999;
+    background: url(/Content/images/slot/NewLandingPage/favorite.png) no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer
+}
+
+.casinoGameHolder .favoriteIcon.selected {
+    background: url(/Content/images/slot/NewLandingPage/favorite-selected.png) no-repeat
+}
+
+.imgHolderCasino {
+    max-width: 297px;
+    max-height: 175px;
+    z-index: 99
+}
+
+.imgHolderCasino img {
+    width: 100%;
+    height: auto;
+    z-index: 99
+}
+
+.tabImg {
+    position: relative;
+    background: #000
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.middle a.secText {
+    color: #fff;
+    font-size: 11px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: underline
+}
+
+.middle a.secText:hover {
+    color: #fee71b
+}
+
+.tabImg:hover .image {
+    opacity: .3
+}
+
+.tabImg:hover .middle {
+    opacity: 1
+}
+
+.text {
+    background: none;
+    color: #fee71b;
+    font-size: 12px;
+    padding: 12px 28px;
+    border: 1px solid #fee71b;
+    border-radius: 3px;
+    transition: all 1s ease
+}
+
+.text:hover {
+    background: #fee71b;
+    color: #000;
+    background-image: linear-gradient(to right top, #ffc400, #ffca03, #ffd107, #ffd70d, #ffde13, #ffe22c, #fee73d, #feeb4c, #feee65, #fff17c, #fff391, #fff6a6)
+}
+
+html:lang(zh-CN) .text {
+    width: 150px;
+    text-align: center
+}
+
+.videoLiveCasino {
+    height: 352px;
+    width: 100%;
+    border: 1px solid #00623b;
+    margin-bottom: 20px
+}
+
+.videoTitleCasinoPage {
+    text-align: left;
+    height: 45px;
+    line-height: 45px;
+    font-family: 'utm-sharnay';
+    color: #77e9a6;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-left: 10px;
+    background: #001f12
+}
+
+.videoCasinoPageContent .videos {
+    width: 100%;
+    border: none;
+    height: 305px;
+    overflow: hidden;
+    background: #000
+}
+
+.videoCasinoPageContent img {
+    display: block
+}
+
+.topwinnersCasinoPage {
+    border: 1px solid #00623b;
+    height: 278px;
+    overflow: hidden;
+    background: #001f12;
+    padding: 5px;
+    border-radius: 4px
+}
+
+.blackBody .topwinnersCasinoPage {
+    border: 1px solid #00623b;
+    height: 278px;
+    overflow: hidden;
+    background: #001f12;
+    padding: 5px;
+    border-radius: 4px
+}
+
+.TopWinnersCasinoPageContainer {
+    height: 220px;
+    overflow: hidden;
+    padding: 1px;
+    border: 1px solid #217c4d
+}
+
+.topWinnersTitleCasinoPage {
+    text-align: left;
+    height: 45px;
+    line-height: 35px;
+    font-family: 'utm-sharnay';
+    color: #77e9a6;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-left: 10px
+}
+
+.TopWinnersCasinoPage .listTopWinner {
+    padding: 3px 7px;
+    height: 44px;
+    width: 100% !important;
+    min-width: 251px;
+    background: #00572a;
+    margin-bottom: 1px;
+    border: 1px solid #02361b
+}
+
+.TopWinnersCasinoPage .listTopWinner:nth-child(even) {
+    background: #003f1d
+}
+
+.TopWinnersCasinoPage .listTopWinner>div {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.TopWinnersCasinoPage .listTopWinner>div:nth-child(2) {
+    width: 150px;
+    padding-left: 5px;
+    color: #ffde00
+}
+
+.TopWinnersCasinoPage .listTopWinner>div:nth-child(3) {
+    text-align: center;
+    width: 214px;
+    color: #97d69d
+}
+
+.TopWinnersCasinoPage .listTopWinner>div:nth-child(4) {
+    width: 120px;
+    color: #ffde00
+}
+
+.TopWinnersCasinoPage .listTopWinner>div:nth-child(4) .coinImg {
+    max-width: 14px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 5px
+}
+
+.casinoInfo {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    height: 100%;
+    width: 500px;
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    z-index: 99999999;
+    padding: 0 20px 20px 20px
+}
+
+.casinoInfo .casinoInfoClose {
+    text-align: right
+}
+
+.casinoInfo .casinoInfoClose a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px
+}
+
+.casinoInfoContent {
+    height: calc(100% - 40px)
+}
+
+.casinoInfoSlider div {
+    height: 270px
+}
+
+.casinoInfoSlider div img {
+    width: 100%;
+    height: auto
+}
+
+#casinoInfoPager {
+    margin: 0 5px
+}
+
+#casinoInfoPager a {
+    max-width: 146px;
+    height: auto;
+    display: inline-block;
+    opacity: .5
+}
+
+#casinoInfoPager a.active {
+    border: 2px solid #fff;
+    opacity: 1
+}
+
+#casinoInfoPager a img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    cursor: pointer
+}
+
+.casinoInfoText {
+    margin-top: 20px
+}
+
+.casinoInfoTitle {
+    margin: 0;
+    padding: 0
+}
+
+.casinoInfoTitle span {
+    text-decoration: underline;
+    letter-spacing: 2px
+}
+
+.casinoInfoContext {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px
+}
+
+.casinoInfobtnSection {
+    margin-top: 30px;
+    text-align: center
+}
+
+.casinoInfobtnSection .btnPlaynowGameInfo {
+    border: 1px solid #ffde00;
+    background: none;
+    padding: 10px;
+    color: #ffde00;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 1s ease;
+    margin-bottom: 10px
+}
+
+.casinoInfobtnSection .btnPlaynowGameInfo:hover {
+    color: #000;
+    background: #ffde00;
+    background-image: linear-gradient(to right top, #ffc400, #ffca03, #ffd107, #ffd70d, #ffde13, #ffe22c, #fee73d, #feeb4c, #feee65, #fff17c, #fff391, #fff6a6)
+}
+
+.casinoInfobtnSection .btnPlaynowGameInfo+.btnPlaynowGameInfo {
+    border: 1px solid #01633c;
+    color: #fff
+}
+
+.casinoInfobtnSection .btnPlaynowGameInfo+.btnPlaynowGameInfo {
+    border: 1px solid #01633c;
+    color: #fff;
+    padding: 5px
+}
+
+.casinoInfobtnSection .btnPlaynowGameInfo+.btnPlaynowGameInfo:hover {
+    background: #01633c;
+    background-image: linear-gradient(to right bottom, #048e6a, #0a8a64, #0e865e, #128259, #157e53, #1e8653, #288d52, #339551, #4aaa53, #64bf54, #80d452, #9ee84f)
+}
+
+.casinoInfoPager div.img img {
+    height: 70px;
+    width: 118px;
+    overflow: hidden
+}
+
+.casinoInfo .sp-selected-thumbnail {
+    border: 2px solid #fff
+}
+
+.gameData {
+    z-index: 999999999;
+    background: rgba(0, 0, 0, .9)
+}
+
+.modalCenter {
+    top: 50%;
+    transform: translateY(-50%) !important;
+    -webkit-transform: translateY(-50%)
+}
+
+.gameData .modal-content {
+    position: relative;
+    background: #000
+}
+
+.gameData .modal-content .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fee71b !important;
+    z-index: 999;
+    opacity: 1
+}
+
+.btn-holder {
+    padding: 20px 10px
+}
+
+.game-image-holder img {
+    width: 100%;
+    max-width: 460px;
+    height: auto
+}
+
+.gameData .modal-content .modalBtn {
+    width: 209px;
+    height: 48px;
+    color: #fee71b;
+    line-height: 48px;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #fee71b;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 1s ease
+}
+
+@media only screen and (min-width:1440px) {
+    .firstLoadCasino .slick-dots {
+        text-align: right;
+        padding-right: 4%;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .firstLoadCasino .slick-dots {
+        text-align: right;
+        padding-right: 4%
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .club-card-container .col-md-4 {
+        width: 50%
+    }
+
+    .firstLoadCasino .slick-dots {
+        text-align: center;
+        padding-right: 0;
+        padding-top: 15px
+    }
+}
+
+@media(max-width:991px) {
+    .dailyRebate {
+        background-position: 9%;
+        background-size: cover
+    }
+
+    .blackBody .dailyRebate {
+        background-position: 9%;
+        background-size: cover
+    }
+
+    .clubQueenEuro {
+        background-position: 9%;
+        background-size: cover
+    }
+
+    .blackBody .clubQueenEuro {
+        background-position: 9%;
+        background-size: cover
+    }
+
+    .SliderList {
+        position: relative
+    }
+
+    .casinoSliderWrap>.col-md-4,
+    .casinoSliderWrap>.col-md-6 {
+        height: auto;
+        background: rgba(170, 170, 170, .8);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        text-align: center
+    }
+
+    .casinoSliderWrap>.col-md-4:after,
+    .casinoSliderWrap>.col-md-6:after {
+        clear: both;
+        content: '';
+        display: table
+    }
+
+    .casinoSliderWrap>.col-md-4>img,
+    .casinoSliderWrap>.col-md-6>img {
+        height: 80px;
+        float: none;
+        display: inline-block
+    }
+
+    .casinoSliderWrap>.col-md-4>.sliderBtnContainer {
+        display: block;
+        margin-top: 15px
+    }
+
+    .casinoSliderWrap>.col-md-4>.sliderBtnContainer .casinoBtn {
+        width: 180px;
+        height: 35px;
+        line-height: 30px;
+        font-size: 16px
+    }
+
+    ul.listData li:first-child {
+        width: 100%;
+        height: auto
+    }
+
+    ul.listData li {
+        width: 50%;
+        height: auto
+    }
+
+    .videoLiveCasino {
+        height: 278px;
+        width: 49%;
+        border: 1px solid #00623b;
+        margin-bottom: 20px;
+        float: left;
+        background: #001f12
+    }
+
+    .videoLiveCasino img {
+        width: 100%;
+        height: auto
+    }
+
+    .blackBody .topwinnersCasinoPage,
+    .topwinnersCasinoPage {
+        width: 49%;
+        margin-left: 10px;
+        float: left
+    }
+
+    .TopWinnersCasinoPage .listTopWinner>div:nth-child(2) {
+        display: none
+    }
+
+    .imgHolderCasino {
+        max-width: 100%;
+        max-height: unset
+    }
+
+    .TopWinnersCasinoPage .listTopWinner>div:nth-child(3) {
+        width: 40%
+    }
+
+    .TopWinnersCasinoPage .listTopWinner>div:nth-child(4) {
+        width: 40%
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .card-thumbnails {
+        background-size: contain;
+        width: 334px;
+        height: 430px
+    }
+
+    .card-thumbnails.clubAce-bg .club-model {
+        top: -27px;
+        left: 29px;
+        z-index: 5;
+        width: 237px
+    }
+
+    .card-thumbnails.clubking-bg .club-model {
+        top: -24px;
+        left: 29px;
+        z-index: 5;
+        width: 258px
+    }
+
+    .card-thumbnails.clubQueen-bg .club-model {
+        top: -20px;
+        left: 1px;
+        z-index: 5;
+        width: 335px
+    }
+
+    .card-thumbnails.clubJack-bg .club-model {
+        top: -26px;
+        left: -1px;
+        z-index: 5;
+        width: 326px
+    }
+
+    .card-thumbnails.clubTen-bg .club-model {
+        top: -27px;
+        left: 29px;
+        z-index: 5;
+        width: 262px
+    }
+
+    .card-thumbnails.clubNine-bg .club-model {
+        top: -22px;
+        left: 3px;
+        z-index: 5;
+        width: 350px
+    }
+
+    .card-thumbnails>.thumb-mask {
+        bottom: 45px;
+        width: 271px
+    }
+}
+
+@media(max-width:768px) {
+
+    .dailyRebate,
+    .blackBody .dailyRebate {
+        background-position: 21%;
+        background-size: cover
+    }
+
+    .clubQueenEuro,
+    .blackBody .clubQueenEuro {
+        background-position: 18%;
+        background-size: cover
+    }
+
+    .wrapCasinoContainer {
+        padding: 10px
+    }
+
+    .forslider .wrap-panel {
+        display: none
+    }
+
+    .topCasinoBtnSelect {
+        display: block
+    }
+
+    .topCasinoBtnSelect select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #037b4b;
+        float: left;
+        margin: 0 3px;
+        background-color: transparent
+    }
+
+    .topCasinoBtnSelect select otpion {
+        color: #333
+    }
+
+    .blackBody .topCasinoBtnSelect select {
+        color: #fff;
+        background-color: #052819
+    }
+
+    .topCasinoBtn,
+    .bottomCasinoBtn {
+        display: none
+    }
+
+    .videoCasinoPageContent .videos {
+        height: auto
+    }
+
+    .casinoGameHolder.tabImg:hover>.imgHolderCasino,
+    .casinoGameHolder.tabImg:hover>.casinoText {
+        opacity: 1
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 1;
+        position: static;
+        top: unset;
+        left: unset;
+        transform: unset;
+        -ms-transform: unset;
+        display: none
+    }
+
+    a:hover>.text {
+        text-decoration: none
+    }
+
+    .middle .text {
+        border-radius: 0;
+        margin-bottom: 2px;
+        text-align: center;
+        padding: 10px 15px;
+        background: #fee71b;
+        border-radius: 0;
+        color: #000
+    }
+
+    .text:hover,
+    .text:focus {
+        text-decoration: none;
+        color: #333;
+        background: #fee71b
+    }
+
+    .middle a.secText {
+        border: 1px solid #ccc;
+        padding: 10px 15px;
+        margin-top: 0;
+        margin-bottom: 2px;
+        text-decoration: none;
+        transition: .5s ease;
+        line-height: normal;
+        color: #333;
+        background: #cac7c7
+    }
+
+    .middle a.secText:hover,
+    .middle a.secText:focus {
+        color: #fff;
+        background: #333;
+        border: 1px solid #333
+    }
+
+    html:lang(zh-CN) .text {
+        width: 100%;
+        text-align: center
+    }
+
+    .casinoSlider {
+        height: auto
+    }
+}
+
+@media(max-width:767px) {
+    .card-thumbnails:hover>img {
+        animation-play-state: paused !important;
+        -webkit-animation-play-state: paused !important
+    }
+
+    .card-thumbnails:hover {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        box-shadow: none
+    }
+
+    .card-thumbnails>.thumb-mask {
+        height: 150px !important;
+        width: 100% !important;
+        bottom: 0 !important;
+        background: rgba(0, 0, 0, .7);
+        border-radius: 0;
+        padding: 0 !important;
+        z-index: 999
+    }
+
+    .card-thumbnails>.thumb-mask a:first-child {
+        display: inline-block;
+        margin-top: 10%
+    }
+
+    .card-thumbnails>.thumb-mask a {
+        display: block;
+        text-decoration: none
+    }
+}
+
+@media(max-width:740px) {
+    .dailyRebate {
+        background-position: 22%;
+        background-size: cover
+    }
+
+    .blackBody .dailyRebate {
+        background-position: 22%;
+        background-size: cover
+    }
+
+    .videoLiveCasino {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+        display: block;
+        height: auto
+    }
+
+    .videoLiveCasino img {
+        width: 100%;
+        height: auto
+    }
+
+    .blackBody .topwinnersCasinoPage,
+    .topwinnersCasinoPage {
+        width: 100%;
+        margin-left: 0;
+        float: none
+    }
+
+    .TopWinnersCasinoPage .listTopWinner>div:nth-child(4) {
+        float: right;
+        width: 40%
+    }
+}
+
+@media only screen and (max-width:692px) {
+    .club-card-container .col-sm-6 {
+        width: 100%
+    }
+}
+
+@media(max-width:620px) {
+    .dailyRebate {
+        background-position: 25%;
+        background-size: cover
+    }
+
+    .blackBody .dailyRebate {
+        background-position: 25%;
+        background-size: cover
+    }
+
+    .bottomCasinoFloat {
+        float: none;
+        margin-bottom: 5px
+    }
+
+    .bottomCasinoFloat+.bottomCasinoFloat {
+        float: none;
+        padding-right: 0
+    }
+
+    .bottomCasinoBtn .bottomCasinoFloat a {
+        margin-right: 0;
+        padding: 5px 10px 5px 0
+    }
+
+    .searchBtn {
+        width: 100%
+    }
+
+    .forslider .wrap-panel {
+        padding: 10px
+    }
+
+    .whiteBody .forslider .wrap-panel {
+        background: #737373
+    }
+
+    #bx-pager {
+        position: static;
+        text-align: center
+    }
+}
+
+@media(max-width:520px) {
+    .casinoInfo {
+        width: 100%
+    }
+}
+
+@media(max-width:420px) {
+    .dailyRebate {
+        background-position: 27%;
+        background-size: cover
+    }
+
+    .blackBody .dailyRebate {
+        background-position: 27%;
+        background-size: cover
+    }
+
+    ul.listData li {}
+
+    .TopWinnersCasinoPage .listTopWinner>div:nth-child(4) {
+        float: none;
+        width: 100px
+    }
+
+    .casinoText span {
+        font-size: 10px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap
+    }
+}
+
+@media(max-width:375px) {
+    .dailyRebate {
+        background-position: 29%;
+        background-size: cover
+    }
+
+    .blackBody .dailyRebate {
+        background-position: 29%;
+        background-size: cover
+    }
+
+    .TopWinnersCasinoPage .listTopWinner>div:nth-child(3) {
+        width: 95px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden
+    }
+
+    .TopWinnersCasinoPage .listTopWinner>div:nth-child(4) {
+        width: 100px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden
+    }
+
+    .bottomCasinoBtn .bottomCasinoFloat a {
+        margin-right: 0;
+        padding: 5px 0;
+        font-size: 13px
+    }
+
+    .topWinnersTitleCasinoPage {
+        font-size: 15px
+    }
+
+    .topWinnersTitleCasinoPage {
+        font-size: 12px;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .card-thumbnails>.thumb-mask {
+        bottom: 41px;
+        width: 244px
+    }
+
+    .club-card-container .col-sm-6 {
+        width: 100%;
+        padding: 0 5px
+    }
+
+    .club-card-container {
+        padding: 60px 5px
+    }
+
+    .card-thumbnails {
+        background-size: contain;
+        width: 299px;
+        height: 384px
+    }
+
+    .card-thumbnails.clubAce-bg .club-model {
+        top: -27px;
+        left: 25px;
+        z-index: 5;
+        width: 213px
+    }
+
+    .card-thumbnails.clubking-bg .club-model {
+        top: -24px;
+        left: 29px;
+        z-index: 5;
+        width: 232px
+    }
+
+    .card-thumbnails.clubQueen-bg .club-model {
+        top: -20px;
+        left: 1px;
+        z-index: 5;
+        width: 300px
+    }
+
+    .card-thumbnails.clubJack-bg .club-model {
+        top: -26px;
+        left: -1px;
+        z-index: 5;
+        width: 292px
+    }
+
+    .card-thumbnails.clubTen-bg .club-model {
+        top: -27px;
+        left: 29px;
+        z-index: 5;
+        width: 235px
+    }
+
+    .card-thumbnails.clubNine-bg .club-model {
+        top: -19px;
+        left: 1px;
+        z-index: 5;
+        width: 311px
+    }
+
+    .card-thumbnails .club-icon {
+        top: 51px;
+        left: 8px;
+        width: 35px
+    }
+}
+
+@media(max-height:768px) {
+    .casinoInfo {
+        overflow: auto
+    }
+}
+
+@media(max-width:991px) {
+
+    .casinoSliderWrap>.col-md-4,
+    .casinoSliderWrap>.col-md-6,
+    .casinoSliderWrap>.col-md-5 {
+        display: none
+    }
+
+    .live-casino-reslider {
+        display: block
+    }
+
+    .live-casino-reslider .mobcas-img {
+        display: none;
+        width: 100%
+    }
+
+    .forslider {
+        position: relative
+    }
+
+    .text-cont .protitle {
+        padding-left: 15px;
+        font-size: 4.5vw
+    }
+}
+
+@media(max-width:767px) {
+    .live-casino-reslider .mobcas-img {
+        display: block
+    }
+
+    .live-casino-reslider {
+        height: unset;
+        position: unset
+    }
+
+    .casinomob-pager {
+        display: block !important
+    }
+
+    .casinomob-pager .thumb {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        margin-bottom: 7px;
+        background-color: rgba(255, 255, 255, .65)
+    }
+
+    .wrap-panel.casinomob-pager {
+        position: absolute;
+        top: 15%;
+        right: 0%
+    }
+
+    .SliderList.casmob {
+        height: auto !important
+    }
+}
+
+@media(max-width:623px) {
+    .wrap-panel.casinomob-pager {
+        top: 2%;
+        left: 92%
+    }
+}
